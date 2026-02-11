@@ -21,6 +21,48 @@ app.mount("/static", StaticFiles(directory=os.path.join(Path(__file__).parent,
 
 # In-memory activity database
 activities = {
+    "Tennis Club": {
+        "instructor": "Ms. Rodriguez",
+        "description": "Learn tennis skills and compete in matches",
+        "schedule": "Mondays and Wednesdays, 4:00 PM - 5:30 PM",
+        "max_participants": 16,
+        "participants": ["alex@mergington.edu"]
+        },
+        "Basketball Team": {
+        "instructor": "Coach Williams",
+        "description": "Competitive basketball training and games",
+        "schedule": "Tuesdays and Thursdays, 3:30 PM - 5:00 PM",
+        "max_participants": 15,
+        "participants": ["james@mergington.edu", "sarah@mergington.edu"]
+        },
+        "Art Club": {
+        "instructor": "Mrs. Chen",
+        "description": "Explore painting, drawing, and sculpture",
+        "schedule": "Wednesdays, 3:30 PM - 5:00 PM",
+        "max_participants": 18,
+        "participants": ["grace@mergington.edu"]
+        },
+        "Drama Club": {
+        "instructor": "Mr. patel",
+        "description": "Perform in theatrical productions and develop acting skills",
+        "schedule": "Thursdays, 3:30 PM - 5:30 PM",
+        "max_participants": 25,
+        "participants": ["isabella@mergington.edu", "marcus@mergington.edu"]
+        },
+        "Debate Team": {
+        "instructor": "Dr. Anderson",
+        "description": "Develop argumentation and public speaking skills",
+        "schedule": "Mondays and Fridays, 3:30 PM - 4:30 PM",
+        "max_participants": 14,
+        "participants": ["lucas@mergington.edu"]
+        },
+        "Science Club": {
+        "instructor": "Dr. Kumar",
+        "description": "Conduct experiments and explore scientific concepts",
+        "schedule": "Tuesdays, 3:30 PM - 5:00 PM",
+        "max_participants": 20,
+        "participants": ["amelia@mergington.edu", "ethan@mergington.edu"]
+        },
     "Chess Club": {
         "instructor": "Mr. Johnson",    
         "description": "Learn strategies and compete in chess tournaments",
